@@ -17,5 +17,5 @@ client.on('messageCreate', (message) => {
     message.reply('Pong 🏓');
   }
 });
-
+console.log("TOKEN EXISTS:", !!process.env.TOKEN);
 client.login(process.env.TOKEN);
